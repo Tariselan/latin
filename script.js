@@ -224,7 +224,9 @@ function chooseWord_RAND() {
 }
 
 function checkAnswer() {
-    if (q == 0) {}
+    if (q == 0) {
+        chooseWord();
+    }
     else if (q == 1) {
         chooseWord_RAND();
     }
