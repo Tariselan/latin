@@ -1,10 +1,15 @@
 <html lang="en">
     <head>
         <title>Latin</title>
-        <script src="script.js"></script>
-        <script src="words.js"></script>
+        <script src="script.js" defer></script>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <section>
+            <div>
+                <p><b>Write: </b> - <span id="wordToWrite">null</span></p>
+                <input type="text" id="textbox" onkeydown="checkAnswer">
+            </div>
+        </section>
     </body>
 </html>
