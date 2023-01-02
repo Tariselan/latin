@@ -174,11 +174,23 @@ const nouns = {
     },
 }
 const words = ['puella', 'servus', 'puer', 'baculum', 'vox', 'civis', 'nomen', 'manus', 'cornu', 'dies'];
-const number = ['sing', "pl"];
+
+const number = ['sing', 'pl'];
+const number_full = ['Singular', 'Plural'];
+
 const cases = ['n', 'a', 'g', 'd', 'ab'];
-var counter = 0;
+const cases_full = ['Nominateve', 'Accusative', 'Genitive', 'Dative', 'Ablative'];
+
+var caseCounter = 0;
+var numberCounter = 0;
+var wordCounter = 0;
 var correctWord = '';
 let q = 0;
+
+var answers = {
+    correct: 0,
+    incorrect: 0
+}
 
 // event listeners
 
@@ -202,10 +214,15 @@ userAnswer.addEventListener('keypress', function(event) {
 // functions
 
 function chooseWord() {
-    if (counter == 10) {
-        counter = 0;
+    correctWord = nouns[words[wordCounter]][number[numberCounter]][cases[caseCounter]];
+    caseCounter++;
+    if (caseCounter == 5) {
+        caseCounter = 0;
+        numberCounter++;
+        if (numberCounter == 2) {
+            numberCounter = 0;
+        }
     }
-    counter++;
 }
 function chooseWord_RAND() {
     function word_RAND() {
@@ -230,5 +247,16 @@ function checkAnswer() {
     else if (q == 1) {
         chooseWord_RAND();
     }
+    if (userAnswer.value == correctWord) {
+        answers.correct++;
+        document.getElementById('correct').innerHTML = answers.correct;
+    }
+    else if (userAnswer.value != correctWord) {
+        answers.incorrect++;
+        document.getElementById('incorrect').innerHTML = answers.incorrect;
+    }
     userAnswer.value = '';
 }
+
+chooseWord();
+caseCounter--;
