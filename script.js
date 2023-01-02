@@ -1,3 +1,5 @@
+// consts and vars
+
 const userAnswer = document.getElementById('textbox');
 const nouns = {
     puella: {
@@ -174,35 +176,57 @@ const nouns = {
 const words = ['puella', 'servus', 'puer', 'baculum', 'vox', 'civis', 'nomen', 'manus', 'cornu', 'dies'];
 const number = ['sing', "pl"];
 const cases = ['n', 'a', 'g', 'd', 'ab'];
+var counter = 0;
+var correctWord = '';
+let q = 0;
 
-//
+// event listeners
 
 userAnswer.addEventListener('keypress', function(event) {
     if (event.key === "Enter") {
         checkAnswer();
     }
+    if (event.key === "q") {
+        userAnswer.value = '';
+        if (q == 0) {
+            q++;
+            alert('RANDOM');
+        }
+        else {
+            q--;
+            alert('STANDARD');
+        }
+    }
 });
 
-//
+// functions
 
-function word_RAND() {
-    let x = Math.round(Math.random()*9);
-    return words[x];
-}
-function number_RAND() {
-    let x = Math.round(Math.random());
-    return number[x];
-}
-function case_RAND() {
-    let x = Math.round(Math.random()*4);
-    return cases[x];
+function chooseWord() {
+    if (counter == 10) {
+        counter = 0;
+    }
+    counter++;
 }
 function chooseWord_RAND() {
-    let z = '';
-    z = nouns[word_RAND()][number_RAND()][case_RAND()];
-    console.log(z);
+    function word_RAND() {
+        let x = Math.round(Math.random()*9);
+        return words[x];
+    }
+    function number_RAND() {
+        let x = Math.round(Math.random());
+        return number[x];
+    }
+    function case_RAND() {
+        let x = Math.round(Math.random()*4);
+        return cases[x];
+    }
+    correctWord = nouns[word_RAND()][number_RAND()][case_RAND()];
 }
 
 function checkAnswer() {
-    chooseWord_RAND();
+    if (q == 0) {}
+    else if (q == 1) {
+        chooseWord_RAND();
+    }
+    userAnswer.value = '';
 }
