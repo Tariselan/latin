@@ -174,18 +174,20 @@ const nouns = {
     },
 }
 const words = ['puella', 'servus', 'puer', 'baculum', 'vox', 'civis', 'nomen', 'manus', 'cornu', 'dies'];
+const words_full = ['Puella', 'Servus', 'Puer', 'Baculum', 'Vox', 'Civis', 'Nomen', 'Manus', 'Cornu', 'Dies'];
 
 const number = ['sing', 'pl'];
 const number_full = ['Singular', 'Plural'];
 
 const cases = ['n', 'a', 'g', 'd', 'ab'];
-const cases_full = ['Nominateve', 'Accusative', 'Genitive', 'Dative', 'Ablative'];
+const cases_full = ['Nominative', 'Accusative', 'Genitive', 'Dative', 'Ablative'];
 
 var caseCounter = 0;
 var numberCounter = 0;
 var wordCounter = 0;
 var correctWord = '';
 let q = 0;
+let changewordkey = true;
 
 var answers = {
     correct: 0,
@@ -194,11 +196,8 @@ var answers = {
 
 // event listeners
 
-userAnswer.addEventListener('keypress', function(event) {
-    if (event.key === "Enter") {
-        checkAnswer();
-    }
-    if (event.key === "q") {
+function keypress(a) {
+    if (a == "q") {
         userAnswer.value = '';
         if (q == 0) {
             q++;
@@ -209,9 +208,38 @@ userAnswer.addEventListener('keypress', function(event) {
             alert('STANDARD');
         }
     }
+    if (a == '`') {
+        userAnswer.value = '';
+        if (changewordkey) {
+            changewordkey = false;
+            alert('no changing');
+        }
+        else {
+            changewordkey = true;
+            alert('changing activated');
+        }
+    }
+}
+
+userAnswer.addEventListener('keypress', function(event) {
+    if (event.key === "Enter") {
+        checkAnswer();
+    }
+    if (event.key === "q") {
+        keypress("q");
+    }
+    if (event.key === "`") {
+        keypress("`");
+    }
 });
 
 // functions
+
+function updateHTML(a, b, c) {
+    document.getElementById('wordToWrite').innerHTML = a;
+    document.getElementById('numberToWrite').innerHTML = b;
+    document.getElementById('caseToWrite').innerHTML = c;
+}
 
 function chooseWord() {
     correctWord = nouns[words[wordCounter]][number[numberCounter]][cases[caseCounter]];
@@ -221,6 +249,12 @@ function chooseWord() {
         numberCounter++;
         if (numberCounter == 2) {
             numberCounter = 0;
+            if (changewordkey) {
+                wordCounter++;
+                if (wordCounter == 9) {
+                    wordCounter = 0;
+                }
+            }
         }
     }
 }
@@ -243,6 +277,7 @@ function chooseWord_RAND() {
 function checkAnswer() {
     if (q == 0) {
         chooseWord();
+        updateHTML(words_full[wordCounter], number_full[numberCounter], cases_full[caseCounter]); 
     }
     else if (q == 1) {
         chooseWord_RAND();
@@ -260,3 +295,4 @@ function checkAnswer() {
 
 chooseWord();
 caseCounter--;
+updateHTML(words_full[wordCounter], number_full[numberCounter], cases_full[caseCounter]);
