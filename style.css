@@ -2,12 +2,21 @@ body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
 }
+
+/**/
+
 body#index {
     background-color: rgb(219, 255, 234);
 }
 body#noun {
     background-color: rgb(219, 219, 255);
 }
+body#changelog {
+    background-color: rgb(255, 219, 253);
+}
+
+/**/
+
 section {
     height: 75vh;
     display: grid;
