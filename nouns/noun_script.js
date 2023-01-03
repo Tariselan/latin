@@ -22,154 +22,154 @@ const nouns = {
     servus: {
         word: "servus (m) 2",
         sing: {
-            n: '',
-            a: '',
-            g: '',
-            d: '',
-            ab: ''
+            n: 'servus',
+            a: 'servum',
+            g: 'servi',
+            d: 'servo',
+            ab: 'servo'
         },
         pl: {
-            n: '',
-            a: '',
-            g: '',
-            d: '',
-            ab: ''
+            n: 'servi',
+            a: 'servos',
+            g: 'servorum',
+            d: 'servis',
+            ab: 'servis'
         }
     },
     puer: {
         word: "puer (m) 2",
         sing: {
-            n: '',
-            a: '',
-            g: '',
-            d: '',
-            ab: ''
+            n: 'puer',
+            a: 'puerum',
+            g: 'pueri',
+            d: 'puero',
+            ab: 'puero'
         },
         pl: {
-            n: '',
-            a: '',
-            g: '',
-            d: '',
-            ab: ''
+            n: 'pueri',
+            a: 'pueros',
+            g: 'puerorum',
+            d: 'pueris',
+            ab: 'pueris'
         }
     },
     baculum: {
         word: "baculum (n) 2",
         sing: {
-            n: '',
-            a: '',
-            g: '',
-            d: '',
-            ab: ''
+            n: 'baculum',
+            a: 'baculum',
+            g: 'baculi',
+            d: 'baculo',
+            ab: 'baculo'
         },
         pl: {
-            n: '',
-            a: '',
-            g: '',
-            d: '',
-            ab: ''
+            n: 'bacula',
+            a: 'bacula',
+            g: 'baculorum',
+            d: 'baculis',
+            ab: 'baculis'
         }
     },
     vox: {
         word: "vox (f) 3",
         sing: {
-            n: '',
-            a: '',
-            g: '',
-            d: '',
-            ab: ''
+            n: 'vox',
+            a: 'vocem',
+            g: 'vocis',
+            d: 'voci',
+            ab: 'voce'
         },
         pl: {
-            n: '',
-            a: '',
-            g: '',
-            d: '',
-            ab: ''
+            n: 'voces',
+            a: 'voces',
+            g: 'vocum',
+            d: 'vocibus',
+            ab: 'vocibus'
         }
     },
     civis: {
         word: "civis (m) 3",
         sing: {
-            n: '',
-            a: '',
-            g: '',
-            d: '',
-            ab: ''
+            n: 'civis',
+            a: 'civem',
+            g: 'civis',
+            d: 'civi',
+            ab: 'cive'
         },
         pl: {
-            n: '',
-            a: '',
-            g: '',
-            d: '',
-            ab: ''
+            n: 'cives',
+            a: 'cives',
+            g: 'civium',
+            d: 'civibus',
+            ab: 'civibus'
         }
     },
     nomen: {
         word: "nomen (n) 3",
         sing: {
-            n: '',
-            a: '',
-            g: '',
-            d: '',
-            ab: ''
+            n: 'nomen',
+            a: 'nomen',
+            g: 'nomenis',
+            d: 'nomini',
+            ab: 'nomine'
         },
         pl: {
-            n: '',
-            a: '',
-            g: '',
-            d: '',
-            ab: ''
+            n: 'nomina',
+            a: 'nomina',
+            g: 'nominum',
+            d: 'nominibus',
+            ab: 'nominibus'
         }
     },
     manus: {
         word: "manus (f) 4",
         sing: {
-            n: '',
-            a: '',
-            g: '',
-            d: '',
-            ab: ''
+            n: 'manus',
+            a: 'manum',
+            g: 'manui',
+            d: 'manui',
+            ab: 'manu'
         },
         pl: {
-            n: '',
-            a: '',
-            g: '',
-            d: '',
-            ab: ''
+            n: 'manus',
+            a: 'manus',
+            g: 'manuum',
+            d: 'manuum',
+            ab: 'manibus'
         }
     },
     cornu: {
         word: "cornu (n) 4",
         sing: {
-            n: '',
-            a: '',
-            g: '',
-            d: '',
-            ab: ''
+            n: 'cornu',
+            a: 'cornu',
+            g: 'cornu',
+            d: 'cornu',
+            ab: 'cornu'
         },
         pl: {
-            n: '',
-            a: '',
-            g: '',
-            d: '',
-            ab: ''
+            n: 'cornua',
+            a: 'cornua',
+            g: 'cornuum',
+            d: 'cornibus',
+            ab: 'cornibus'
         }
     },
     dies: {
         word: "dies (m) 5",
         sing: {
-            n: '',
-            a: '',
-            g: '',
-            d: '',
-            ab: ''
+            n: 'dies',
+            a: 'diem',
+            g: 'diei',
+            d: 'diei',
+            ab: 'die'
         },
         pl: {
-            n: '',
-            a: '',
-            g: '',
-            d: '',
-            ab: ''
+            n: 'dies',
+            a: 'dies',
+            g: 'dierum',
+            d: 'diebus',
+            ab: 'diebus'
         }
     },
 }
