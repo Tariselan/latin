@@ -18,7 +18,7 @@ body#changelog {
 /**/
 
 section {
-    height: 75vh;
+    height: 55vh;
     display: grid;
     place-items: center;
 }
