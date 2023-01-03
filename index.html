@@ -2,8 +2,33 @@
     <head>
         <title>Index</title>
         <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
     </head>
-    <body>
-        <h1>Index</h1>   
+    <body id="index">
+        <h1>Index</h1>
+        <section>
+            <div>
+                <p>
+                    This webisite is a much needed reboot of my old <a href="tariselan.github.io/latinlearning">Latin Learning Site</a>. <br>
+                    This site has had multiple differences from it: <br>
+                        <ul style="text-align: left;">
+                            <li>A much more minimalist style so the focus is on the content rather than the site</li>
+                            <li>Functional practice games with much <b><i>much</i></b> improved code</li>
+                        </ul>
+                    
+                </p>
+            </div>
+            <div class="grid-container">
+                <ul class="clickable" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 20px;">
+                    <li onclick="goto(sites['n'])">Nouns</li>
+                    <br>
+                    <li onclick="goto(sites['p'])">Pronouns</li>
+                    <br>
+                    <li onclick="goto(sites['v'])">Verbs</li>
+                    <br>
+                    <li onclick="goto(sites['a'])">Adjectives</li>
+                </ul>
+            </div>
+        </section> 
     </body>
 </html>

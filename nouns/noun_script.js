@@ -296,3 +296,9 @@ function checkAnswer() {
 chooseWord();
 caseCounter--;
 updateHTML(words_full[wordCounter], number_full[numberCounter], cases_full[caseCounter]);
+
+//
+
+function goback() {
+    window.location.replace('../index.html')
+}
