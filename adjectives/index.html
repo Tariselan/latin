@@ -1,9 +1,19 @@
 <html lang="en">
     <head>
-        <title>Document</title>
+        <title>Adjectives</title>
         <link rel="stylesheet" href="../style.css">
-        <script src="script.js"></script>
+        <script src="../return-to-index.js"></script>
+        <script src="script.js" defer></script>
     </head>
-    <body>
+    <body id="adjectives">
+        <h1 class="clickable" onclick="goback()">Adjectives</h1>
+        <section>
+            <div>
+                <p><b>Write: </b> - <span id="wordToWrite">null</span> <span id="caseToWrite">null</span> <span id="numberToWrite">null</span> in the <span id="genderToWrite">null</span></p>
+                <input type="text" id="textbox" onkeydown="checkAnswer"> <br>
+                <p><b>Correct: </b> <span id="correct">0</span></p>
+                <p><b>Incorrect: </b> <span id="incorrect">0</span></p>
+            </div>
+        </section>
     </body>
 </html>
