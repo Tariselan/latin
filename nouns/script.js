@@ -225,7 +225,7 @@ userAnswer.addEventListener('keypress', function(event) {
     if (event.key === "Enter") {
         checkAnswer();
     }
-    if (event.key === "q") {
+    if (event.key === ",") {
         keypress("q");
     }
     if (event.key === "`") {
