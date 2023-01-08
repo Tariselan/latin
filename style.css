@@ -11,6 +11,9 @@ body#index {
 body#noun {
     background-color: rgb(219, 219, 255);
 }
+body#pronoun {
+    background-color: rgb(255, 248, 219);
+}
 body#changelog {
     background-color: rgb(255, 253, 219);
 }
