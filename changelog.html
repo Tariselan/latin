@@ -2,12 +2,6 @@
     <head>
         <title>Changelog</title>
         <link rel="stylesheet" href="style.css">
-        <script src="return-to-index.js defer"></script>
-        <script>
-            function goback() {
-                window.location.replace('index.html')
-            }
-        </script>
     </head>
     <body id="changelog">
         <h1 class="clickable" onclick="goback()">Changelog</h1>
@@ -70,4 +64,7 @@
             </p>
         </div>
     </body>
+    <script>
+        const body = document.body; body.addEventListener('keypress', function(event) {if (event.key === "0") {window.location.replace('../index.html');}})
+    </script>
 </html>
