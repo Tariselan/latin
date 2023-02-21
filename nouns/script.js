@@ -143,7 +143,7 @@ const nouns = {
         sing: {
             n: 'cornu',
             a: 'cornu',
-            g: 'cornu',
+            g: 'cornus',
             d: 'cornu',
             ab: 'cornu'
         },
