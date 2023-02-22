@@ -8,15 +8,30 @@ body {
 body#index {
     background-color: rgb(219, 255, 234);
 }
+
+/**/
 body#noun {
     background-color: rgb(219, 219, 255);
 }
+
+table#noun-table {
+    width: 500px;
+}
+th.top, td.top {
+    border-top: 2px solid;
+}
+
+/**/
 body#pronoun {
     background-color: rgb(255, 248, 219);
 }
+
+/**/
 body#changelog {
     background-color: rgb(255, 253, 219);
 }
+
+/**/
 body#adjectives {
     background-color: rgb(255, 219, 234);
 }
