@@ -1,5 +1,24 @@
 // consts and vars
 
+const refTable = document.getElementById('noun-table');
+function showTable() {
+    refTable.style.opacity = '100%';
+}
+function hideTable() {
+    refTable.style.opacity = '0%';
+}
+let tableVis = 0;
+function Table() {
+    if (tableVis == 0) {
+        showTable();
+        tableVis++;
+    }
+    else {
+        hideTable();
+        tableVis--;
+    }
+}
+
 const userAnswer = document.getElementById('textbox');
 const nouns = {
     puella: {

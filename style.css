@@ -14,11 +14,26 @@ body#noun {
     background-color: rgb(219, 219, 255);
 }
 
-table#noun-table {
-    width: 500px;
+th, td {
+    border: 1px solid;
 }
-th.top, td.top {
-    border-top: 2px solid;
+div#noun-table {
+    position: absolute;
+    top: 20%;
+    left: 7%;
+    background-color: rgb(200, 200, 254);
+    padding: 15px;
+    border-radius: 15px;
+    border: 5px solid rgb(184, 184, 245);
+    opacity: 0%;
+}
+td {
+    width: 60px;
+}
+p#ref {
+    position: absolute;
+    bottom: 5%;
+    left: 44%;
 }
 
 /**/
