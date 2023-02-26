@@ -18,7 +18,7 @@ th, td {
     border: 1px solid;
 }
 div#noun-table {
-    position: absolute;
+     position: absolute;
     top: 20%;
     left: 7%;
     background-color: rgb(200, 200, 254);
@@ -39,6 +39,11 @@ p#ref {
 /**/
 body#pronoun {
     background-color: rgb(255, 248, 219);
+}
+
+/**/
+body#verb {
+    background-color: rgb(197, 237, 253);
 }
 
 /**/
