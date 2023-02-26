@@ -18,14 +18,14 @@ th, td {
     border: 1px solid;
 }
 div#noun-table {
-     position: absolute;
+    position: absolute;
     top: 20%;
     left: 7%;
     background-color: rgb(200, 200, 254);
     padding: 15px;
     border-radius: 15px;
     border: 5px solid rgb(184, 184, 245);
-    opacity: 0%;
+    display: none;
 }
 td {
     width: 60px;

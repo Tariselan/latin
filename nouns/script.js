@@ -2,10 +2,10 @@
 
 const refTable = document.getElementById('noun-table');
 function showTable() {
-    refTable.style.opacity = '100%';
+    refTable.style.display = 'block';
 }
 function hideTable() {
-    refTable.style.opacity = '0%';
+    refTable.style.display = 'none';
 }
 let tableVis = 0;
 function Table() {
