@@ -63,7 +63,7 @@ section {
     display: grid;
     place-items: center;
 }
-body#index > section {
+body#index > section, body#verb > section {
     height: 50vh;
 }
 .clickable {
