@@ -188,14 +188,17 @@ const porto = {
 const mood = ['indicative', 'subjunctive'];
 const mood_full = ['Indicative', 'Subjunctive'];
 
-const mood = [];
-const mood_full = [];
+const voice = ['active', 'passive'];
+const voice_full = ['Active', 'Passive'];
 
-const mood = [];
-const mood_full = [];
+const tenseI = ['present', 'imperfect', 'future', 'perfect', 'pluperfect', 'futurePerfect']; // ind tense
+const tenseI_full = ['Present', 'Imperfect', 'Future', 'Perfect', 'Pluperfect', 'Future Perfect'];
 
-const mood = [];
-const mood_full = [];
+const tenseS = ['present', 'imperfect', 'perfect', 'pluperfect']; // subj tense
+const tenseS_full = ['Present', 'Imperfect', 'Perfect', 'Pluperfect'];
+
+const person = ['fs', 'ss', 'ts', 'fp', 'sp', 'tp'];
+const person_full = ['First Person Singular', 'Second Person Singular', 'Third Person Singular', 'First Person Plural', 'Second Person Plural', 'Third Person Plural'];
 
 // event listeners
 
