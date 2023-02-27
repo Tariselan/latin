@@ -1,6 +1,6 @@
-const body = document.body;
+const body1 = document.body;
 
-body.addEventListener('keypress', function(event) {
+body1.addEventListener('keypress', function(event) {
     if (event.key === "0") {
         window.location.replace('../index.html');
     }
