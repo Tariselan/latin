@@ -61,7 +61,7 @@ const porto = {
                 tp: 'port' 
             }
         },
-        subjunctive: {
+        passive: {
             present: {
                 fs: 'port',
                 ss: 'port',
@@ -111,5 +111,107 @@ const porto = {
                 tp: 'port' 
             }
         }
-    }
+    },
+    subjunctive: {
+        active: {
+            present: {
+                fs: 'port',
+                ss: 'port',
+                ts: 'port',
+                fp: 'port',
+                sp: 'port',
+                tp: 'port' 
+            },
+            imperfect: {
+                fs: 'port',
+                ss: 'port',
+                ts: 'port',
+                fp: 'port',
+                sp: 'port',
+                tp: 'port'
+            },
+            future: {
+                fs: 'port',
+                ss: 'port',
+                ts: 'port',
+                fp: 'port',
+                sp: 'port',
+                tp: 'port'
+            },
+            perfect: {
+                fs: 'port',
+                ss: 'port',
+                ts: 'port',
+                fp: 'port',
+                sp: 'port',
+                tp: 'port' 
+            },
+            pluperfect: {
+                fs: 'port',
+                ss: 'port',
+                ts: 'port',
+                fp: 'port',
+                sp: 'port',
+                tp: 'port' 
+            },
+            futurePerfect: {
+                fs: 'port',
+                ss: 'port',
+                ts: 'port',
+                fp: 'port',
+                sp: 'port',
+                tp: 'port' 
+            }
+        },
+        passive: {
+            present: {
+                fs: 'port',
+                ss: 'port',
+                ts: 'port',
+                fp: 'port',
+                sp: 'port',
+                tp: 'port' 
+            },
+            imperfect: {
+                fs: 'port',
+                ss: 'port',
+                ts: 'port',
+                fp: 'port',
+                sp: 'port',
+                tp: 'port'
+            },
+            future: {
+                fs: 'port',
+                ss: 'port',
+                ts: 'port',
+                fp: 'port',
+                sp: 'port',
+                tp: 'port'
+            },
+            perfect: {
+                fs: 'port',
+                ss: 'port',
+                ts: 'port',
+                fp: 'port',
+                sp: 'port',
+                tp: 'port' 
+            },
+            pluperfect: {
+                fs: 'port',
+                ss: 'port',
+                ts: 'port',
+                fp: 'port',
+                sp: 'port',
+                tp: 'port' 
+            },
+            futurePerfect: {
+                fs: 'port',
+                ss: 'port',
+                ts: 'port',
+                fp: 'port',
+                sp: 'port',
+                tp: 'port' 
+            }
+        }
+    },
 }

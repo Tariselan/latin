@@ -14,5 +14,8 @@ function goto(x) {
 }
 
 body.addEventListener('keypress', function(event) {
+    if (event.key === '0') {
+        return;
+    }
     goto(sites[event.key])
 })
