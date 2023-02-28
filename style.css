@@ -10,6 +10,13 @@ body#index {
 }
 
 /**/
+
+body#verb {
+    background-color: rgb(219, 255, 252);
+}
+
+/**/
+
 body#noun {
     background-color: rgb(219, 219, 255);
 }
