@@ -32,7 +32,7 @@ div#noun-table {
     padding: 15px;
     border-radius: 15px;
     border: 5px solid rgb(184, 184, 245);
-    opacity: 0%;
+    display: none;
 }
 td {
     width: 60px;
@@ -46,6 +46,11 @@ p#ref {
 /**/
 body#pronoun {
     background-color: rgb(255, 248, 219);
+}
+
+/**/
+body#verb {
+    background-color: rgb(197, 237, 253);
 }
 
 /**/
@@ -65,7 +70,7 @@ section {
     display: grid;
     place-items: center;
 }
-body#index > section {
+body#index > section, body#verb > section {
     height: 50vh;
 }
 .clickable {
