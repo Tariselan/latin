@@ -270,7 +270,7 @@ function chooseWord() {
             numberCounter = 0;
             if (changewordkey) {
                 wordCounter++;
-                if (wordCounter == 9) {
+                if (wordCounter == 10) {
                     wordCounter = 0;
                 }
             }
