@@ -10,176 +10,176 @@ sp = second plural
 tp = third plural
 */
 
-const porto = {
+const mitto = {
     indicative: {
         active: {
             present: {
-                fs: 'porto',
-                ss: 'portas',
-                ts: 'portat',
-                fp: 'portamus',
-                sp: 'portatis',
-                tp: 'portant' 
+                fs: 'mitto',
+                ss: 'mittis',
+                ts: 'mittit',
+                fp: 'mittimus',
+                sp: 'mittitis',
+                tp: 'mittint' 
             },
             imperfect: {
-                fs: 'portabam',
-                ss: 'portabas',
-                ts: 'portabat',
-                fp: 'portabamus',
-                sp: 'portabatis',
-                tp: 'portabant'
+                fs: 'mittebam',
+                ss: 'mittebas',
+                ts: 'mittebat',
+                fp: 'mittebamus',
+                sp: 'mittebatis',
+                tp: 'mittebant'
             },
             future: {
-                fs: 'portabo',
-                ss: 'portabis',
-                ts: 'portabit',
-                fp: 'portabimus',
-                sp: 'portabitis',
-                tp: 'portabunt'
+                fs: 'mittam',
+                ss: 'mittes',
+                ts: 'mittet',
+                fp: 'mittemus',
+                sp: 'mittetis',
+                tp: 'mittent'
             },
             perfect: {
-                fs: 'portavi',
-                ss: 'portavisti',
-                ts: 'portavit',
-                fp: 'portavimus',
-                sp: 'portavistis',
-                tp: 'portaverunt' 
+                fs: 'misi',
+                ss: 'misisti',
+                ts: 'misit',
+                fp: 'misimus',
+                sp: 'misistis',
+                tp: 'miserunt' 
             },
             pluperfect: {
-                fs: 'portaveram',
-                ss: 'portaveras',
-                ts: 'portaverat',
-                fp: 'portaveramus',
-                sp: 'portaveratis',
-                tp: 'portaverant' 
+                fs: 'miseram',
+                ss: 'miseras',
+                ts: 'miserat',
+                fp: 'miseramus',
+                sp: 'miseratis',
+                tp: 'miserant' 
             },
             futurePerfect: {
-                fs: 'portavero',
-                ss: 'portaveris',
-                ts: 'portaverit',
-                fp: 'portaverimus',
-                sp: 'portaveritis',
-                tp: 'portaverint' 
+                fs: 'misero',
+                ss: 'miseris',
+                ts: 'miserit',
+                fp: 'miserimus',
+                sp: 'miseritis',
+                tp: 'miserint' 
             }
         },
         passive: {
             present: {
-                fs: 'portor',
-                ss: 'portaris',
-                ts: 'portatur',
-                fp: 'portamur',
-                sp: 'portamini',
-                tp: 'portantur' 
+                fs: 'mittor',
+                ss: 'mittoris',
+                ts: 'mittotur',
+                fp: 'mittomur',
+                sp: 'mittomini',
+                tp: 'mittontur' 
             },
             imperfect: {
-                fs: 'portabar',
-                ss: 'portabaris',
-                ts: 'portabatur',
-                fp: 'portabamur',
-                sp: 'portabamini',
-                tp: 'portabantur'
+                fs: 'mittobar',
+                ss: 'mittobaris',
+                ts: 'mittobatur',
+                fp: 'mittobamur',
+                sp: 'mittobamini',
+                tp: 'mittobantur'
             },
             future: {
-                fs: 'portabor',
-                ss: 'portaberis',
-                ts: 'portabitur',
-                fp: 'portabimur',
-                sp: 'portabimini',
-                tp: 'portabuntur'
+                fs: 'mittobor',
+                ss: 'mittobaris',
+                ts: 'mittobatur',
+                fp: 'mittobamur',
+                sp: 'mittobamini',
+                tp: 'mittobantur'
             },
             perfect: {
-                fs: 'portatus sum',
-                ss: 'portatus es',
-                ts: 'portatus est',
-                fp: 'portatus sumus',
-                sp: 'portatus estis',
-                tp: 'portatus sunt' 
+                fs: 'missus sum',
+                ss: 'missus es',
+                ts: 'missus est',
+                fp: 'missus sumus',
+                sp: 'missus estis',
+                tp: 'missus sunt' 
             },
             pluperfect: {
-                fs: 'portatus eram',
-                ss: 'portatus eras',
-                ts: 'portatus erat',
-                fp: 'portatus eramus',
-                sp: 'portatus eratis',
-                tp: 'portatus erunt' 
+                fs: 'missus eram',
+                ss: 'missus eras',
+                ts: 'missus erat',
+                fp: 'missus eramus',
+                sp: 'missus eratis',
+                tp: 'missus erunt' 
             },
             futurePerfect: {
-                fs: 'portatus ero',
-                ss: 'portatus eris',
-                ts: 'portatus erit',
-                fp: 'portatus erimus',
-                sp: 'portatus eritis',
-                tp: 'portatus erunt' 
+                fs: 'missus ero',
+                ss: 'missus eris',
+                ts: 'missus erit',
+                fp: 'missus erimus',
+                sp: 'missus eritis',
+                tp: 'missus erunt' 
             }
         }
     },
     subjunctive: {
         active: {
             present: {
-                fs: 'portem',
-                ss: 'portes',
-                ts: 'portet',
-                fp: 'portemus',
-                sp: 'portetis',
-                tp: 'portent' 
+                fs: 'mittam',
+                ss: 'mittas',
+                ts: 'mittat',
+                fp: 'mittamus',
+                sp: 'mittatis',
+                tp: 'mittant' 
             },
             imperfect: {
-                fs: 'portarem',
-                ss: 'portares',
-                ts: 'portaret',
-                fp: 'portaremus',
-                sp: 'portaretis',
-                tp: 'portent'
+                fs: 'mitterem',
+                ss: 'mitteres',
+                ts: 'mitteret',
+                fp: 'mitteremus',
+                sp: 'mitteretis',
+                tp: 'mitterent'
             },
             perfect: {
-                fs: 'portaverim',
-                ss: 'portaveris',
-                ts: 'portaverit',
-                fp: 'portaverimus',
-                sp: 'portaveritis',
-                tp: 'portaverint'
+                fs: 'miserim',
+                ss: 'miseris',
+                ts: 'miserit',
+                fp: 'miserimus',
+                sp: 'miseritis',
+                tp: 'miserint'
             },
             pluperfect: {
-                fs: 'portavissem',
-                ss: 'portavisses',
-                ts: 'portavisset',
-                fp: 'portavissemus',
-                sp: 'portavissetis',
-                tp: 'portavissent' 
+                fs: 'misissem',
+                ss: 'misisses',
+                ts: 'misisset',
+                fp: 'misissemus',
+                sp: 'misissetis',
+                tp: 'misissent' 
             }
         },
         passive: {
             present: {
-                fs: 'porter',
-                ss: 'porteris',
-                ts: 'portetur',
-                fp: 'portemur',
-                sp: 'portemini',
-                tp: 'portentur' 
+                fs: 'mittar',
+                ss: 'mittaris',
+                ts: 'mittatur',
+                fp: 'mittamur',
+                sp: 'mittamini',
+                tp: 'mittantur' 
             },
             imperfect: {
-                fs: 'portarer',
-                ss: 'portareris',
-                ts: 'portaretur',
-                fp: 'portaremur',
-                sp: 'portaremini',
-                tp: 'portarentur'
+                fs: 'mitterer',
+                ss: 'mittereris',
+                ts: 'mitteretur',
+                fp: 'mitteremur',
+                sp: 'mitteremini',
+                tp: 'mitterentur'
             },
             perfect: {
-                fs: 'portatus sim',
-                ss: 'portatus sis',
-                ts: 'portatus sit',
-                fp: 'portatus simus',
-                sp: 'portatus sitis',
-                tp: 'portatus sint' 
+                fs: 'missus sim',
+                ss: 'missus sis',
+                ts: 'missus sit',
+                fp: 'missus simus',
+                sp: 'missus sitis',
+                tp: 'missus sint' 
             },
             pluperfect: {
-                fs: 'portatus essem',
-                ss: 'portatus esses',
-                ts: 'portatus esset',
-                fp: 'portatus essemus',
-                sp: 'portatus essetis',
-                tp: 'portatus essent' 
+                fs: 'missus essem',
+                ss: 'missus esses',
+                ts: 'missus esset',
+                fp: 'missus essemus',
+                sp: 'missus essetis',
+                tp: 'missus essent' 
             }
         }
     }
@@ -243,7 +243,7 @@ function updateHTML(a, b, c, d) {
 }
 
 function chooseWord() {
-    correctWord = porto[mood[moodCounter]][voice[voiceCounter]][tenseI[tenseICounter]][person[personCounter]];
+    correctWord = mitto[mood[moodCounter]][voice[voiceCounter]][tenseI[tenseICounter]][person[personCounter]];
     personCounter++;
     if (changetensekey) {
         if (personCounter == 6) {

@@ -1,1 +1,8 @@
-active indicative forms of porto
+verb reference for:
+    - portor
+    - habeo
+    - mitto
+
+
+fix script.js for:
+    - audio
