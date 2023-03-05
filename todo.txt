@@ -1,8 +1,8 @@
 verb reference for:
     - portor
     - habeo
+    - mitto
 
 
 fix script.js for:
-    - mitto
     - audio

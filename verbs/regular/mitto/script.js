@@ -10,176 +10,176 @@ sp = second plural
 tp = third plural
 */
 
-const habeo = {
+const mitto = {
     indicative: {
         active: {
             present: {
-                fs: 'habeo',
-                ss: 'habes',
-                ts: 'habet',
-                fp: 'habemus',
-                sp: 'habetis',
-                tp: 'habent' 
+                fs: 'mitto',
+                ss: 'mittis',
+                ts: 'mittit',
+                fp: 'mittimus',
+                sp: 'mittitis',
+                tp: 'mittint' 
             },
             imperfect: {
-                fs: 'habebam',
-                ss: 'habebas',
-                ts: 'habebat',
-                fp: 'habebamus',
-                sp: 'habebatis',
-                tp: 'habebant'
+                fs: 'mittebam',
+                ss: 'mittebas',
+                ts: 'mittebat',
+                fp: 'mittebamus',
+                sp: 'mittebatis',
+                tp: 'mittebant'
             },
             future: {
-                fs: 'habebo',
-                ss: 'habebis',
-                ts: 'habebit',
-                fp: 'habebimus',
-                sp: 'habebitis',
-                tp: 'habebunt'
+                fs: 'mittam',
+                ss: 'mittes',
+                ts: 'mittet',
+                fp: 'mittemus',
+                sp: 'mittetis',
+                tp: 'mittent'
             },
             perfect: {
-                fs: 'habui',
-                ss: 'habuisti',
-                ts: 'habuit',
-                fp: 'habuimus',
-                sp: 'habuistis',
-                tp: 'habuerunt' 
+                fs: 'misi',
+                ss: 'misisti',
+                ts: 'misit',
+                fp: 'misimus',
+                sp: 'misistis',
+                tp: 'miserunt' 
             },
             pluperfect: {
-                fs: 'habueram',
-                ss: 'habueras',
-                ts: 'habuerat',
-                fp: 'habueramus',
-                sp: 'habueratis',
-                tp: 'habuerant' 
+                fs: 'miseram',
+                ss: 'miseras',
+                ts: 'miserat',
+                fp: 'miseramus',
+                sp: 'miseratis',
+                tp: 'miserant' 
             },
             futurePerfect: {
-                fs: 'habuero',
-                ss: 'habueris',
-                ts: 'habuerit',
-                fp: 'habuerimus',
-                sp: 'habueritis',
-                tp: 'habuerint' 
+                fs: 'misero',
+                ss: 'miseris',
+                ts: 'miserit',
+                fp: 'miserimus',
+                sp: 'miseritis',
+                tp: 'miserint' 
             }
         },
         passive: {
             present: {
-                fs: 'habeor',
-                ss: 'haberis',
-                ts: 'habetur',
-                fp: 'habemur',
-                sp: 'habemini',
-                tp: 'habentur' 
+                fs: 'mittor',
+                ss: 'mittoris',
+                ts: 'mittotur',
+                fp: 'mittomur',
+                sp: 'mittomini',
+                tp: 'mittontur' 
             },
             imperfect: {
-                fs: 'habebar',
-                ss: 'habebaris',
-                ts: 'habebatur',
-                fp: 'habebamur',
-                sp: 'habebamini',
-                tp: 'habebantur'
+                fs: 'mittobar',
+                ss: 'mittobaris',
+                ts: 'mittobatur',
+                fp: 'mittobamur',
+                sp: 'mittobamini',
+                tp: 'mittobantur'
             },
             future: {
-                fs: 'habebor',
-                ss: 'habebaris',
-                ts: 'habebatur',
-                fp: 'habebamur',
-                sp: 'habebamini',
-                tp: 'habebantur'
+                fs: 'mittobor',
+                ss: 'mittobaris',
+                ts: 'mittobatur',
+                fp: 'mittobamur',
+                sp: 'mittobamini',
+                tp: 'mittobantur'
             },
             perfect: {
-                fs: 'habitus sum',
-                ss: 'habitus es',
-                ts: 'habitus est',
-                fp: 'habitus sumus',
-                sp: 'habitus estis',
-                tp: 'habitus sunt' 
+                fs: 'missus sum',
+                ss: 'missus es',
+                ts: 'missus est',
+                fp: 'missus sumus',
+                sp: 'missus estis',
+                tp: 'missus sunt' 
             },
             pluperfect: {
-                fs: 'habitus eram',
-                ss: 'habitus eras',
-                ts: 'habitus erat',
-                fp: 'habitus eramus',
-                sp: 'habitus eratis',
-                tp: 'habitus erunt' 
+                fs: 'missus eram',
+                ss: 'missus eras',
+                ts: 'missus erat',
+                fp: 'missus eramus',
+                sp: 'missus eratis',
+                tp: 'missus erunt' 
             },
             futurePerfect: {
-                fs: 'habitus ero',
-                ss: 'habitus eris',
-                ts: 'habitus erit',
-                fp: 'habitus erimus',
-                sp: 'habitus eritis',
-                tp: 'habitus erunt' 
+                fs: 'missus ero',
+                ss: 'missus eris',
+                ts: 'missus erit',
+                fp: 'missus erimus',
+                sp: 'missus eritis',
+                tp: 'missus erunt' 
             }
         }
     },
     subjunctive: {
         active: {
             present: {
-                fs: 'habeam',
-                ss: 'habeas',
-                ts: 'habeat',
-                fp: 'habeamus',
-                sp: 'habeatis',
-                tp: 'habeant' 
+                fs: 'mittam',
+                ss: 'mittas',
+                ts: 'mittat',
+                fp: 'mittamus',
+                sp: 'mittatis',
+                tp: 'mittant' 
             },
             imperfect: {
-                fs: 'haberem',
-                ss: 'haberes',
-                ts: 'haberet',
-                fp: 'haberemus',
-                sp: 'haberetis',
-                tp: 'haberent'
+                fs: 'mitterem',
+                ss: 'mitteres',
+                ts: 'mitteret',
+                fp: 'mitteremus',
+                sp: 'mitteretis',
+                tp: 'mitterent'
             },
             perfect: {
-                fs: 'habuerim',
-                ss: 'habueris',
-                ts: 'habuerit',
-                fp: 'habuerimus',
-                sp: 'habueritis',
-                tp: 'habuerint'
+                fs: 'miserim',
+                ss: 'miseris',
+                ts: 'miserit',
+                fp: 'miserimus',
+                sp: 'miseritis',
+                tp: 'miserint'
             },
             pluperfect: {
-                fs: 'habessim',
-                ss: 'habessis',
-                ts: 'habessit',
-                fp: 'habessimus',
-                sp: 'habessitis',
-                tp: 'habessint' 
+                fs: 'misissem',
+                ss: 'misisses',
+                ts: 'misisset',
+                fp: 'misissemus',
+                sp: 'misissetis',
+                tp: 'misissent' 
             }
         },
         passive: {
             present: {
-                fs: 'habear',
-                ss: 'habearis',
-                ts: 'habeatur',
-                fp: 'habeamur',
-                sp: 'habeamini',
-                tp: 'habeantur' 
+                fs: 'mittar',
+                ss: 'mittaris',
+                ts: 'mittatur',
+                fp: 'mittamur',
+                sp: 'mittamini',
+                tp: 'mittantur' 
             },
             imperfect: {
-                fs: 'haberer',
-                ss: 'habereris',
-                ts: 'haberetur',
-                fp: 'haberemur',
-                sp: 'haberemini',
-                tp: 'haberentur'
+                fs: 'mitterer',
+                ss: 'mittereris',
+                ts: 'mitteretur',
+                fp: 'mitteremur',
+                sp: 'mitteremini',
+                tp: 'mitterentur'
             },
             perfect: {
-                fs: 'habitus sim',
-                ss: 'habitus sis',
-                ts: 'habitus sit',
-                fp: 'habitus simus',
-                sp: 'habitus sitis',
-                tp: 'habitus sint' 
+                fs: 'missus sim',
+                ss: 'missus sis',
+                ts: 'missus sit',
+                fp: 'missus simus',
+                sp: 'missus sitis',
+                tp: 'missus sint' 
             },
             pluperfect: {
-                fs: 'habitus essem',
-                ss: 'habitus esses',
-                ts: 'habitus esset',
-                fp: 'habitus essemus',
-                sp: 'habitus essetis',
-                tp: 'habitus essent' 
+                fs: 'missus essem',
+                ss: 'missus esses',
+                ts: 'missus esset',
+                fp: 'missus essemus',
+                sp: 'missus essetis',
+                tp: 'missus essent' 
             }
         }
     }
@@ -243,7 +243,7 @@ function updateHTML(a, b, c, d) {
 }
 
 function chooseWord() {
-    correctWord = habeo[mood[moodCounter]][voice[voiceCounter]][tenseI[tenseICounter]][person[personCounter]];
+    correctWord = mitto[mood[moodCounter]][voice[voiceCounter]][tenseI[tenseICounter]][person[personCounter]];
     personCounter++;
     if (changetensekey) {
         if (personCounter == 6) {
