@@ -200,8 +200,106 @@ const tenseS_full = ['Present', 'Imperfect', 'Perfect', 'Pluperfect'];
 const person = ['fs', 'ss', 'ts', 'fp', 'sp', 'tp'];
 const person_full = ['First Person Singular', 'Second Person Singular', 'Third Person Singular', 'First Person Plural', 'Second Person Plural', 'Third Person Plural'];
 
+var moodCounter = 0;
+var voiceCounter = 0;
+var tenseICounter = 0;
+var tenseSCounter = 0;
+var personCounter = 0;
+var correctWord = '';
+
+let changetensekey = true;
+
+var answers = {
+    correct: 0,
+    incorrect: 0
+}
+
 // event listeners
 
-
+userAnswer.addEventListener('keypress', function(event) {
+    if (event.key === "Enter") {
+        checkAnswer();
+    }
+    if (event.key === "`") {
+        userAnswer.value = '';
+        if (changetensekey) {
+            changetensekey = false;
+            alert('no changing');
+        }
+        else {
+            changetensekey = true;
+            alert('changing activated');
+        }
+    }
+});
 
 // functions
+
+function updateHTML(a, b, c, d) {
+    document.getElementById('moodToWrite').innerHTML = a;
+    document.getElementById('voiceToWrite').innerHTML = b;
+    document.getElementById('tenseToWrite').innerHTML = c;
+    document.getElementById('personToWrite').innerHTML = d;
+}
+
+function chooseWord() {
+    correctWord = porto[mood[moodCounter]][voice[voiceCounter]][tenseI[tenseICounter]][person[personCounter]];
+    personCounter++;
+    if (changetensekey) {
+        if (personCounter == 6) {
+            personCounter = 0;
+            if (moodCounter == 0) {
+                tenseICounter++;
+                if (tenseICounter == 6) {
+                    tenseICounter = 0;
+                    voiceCounter++;
+                    if (voiceCounter == 2) {
+                        voiceCounter = 0;
+                        moodCounter++;
+                    }
+                }
+            }
+            else {
+                tenseSCounter++;
+                if (tenseSCounter == 4) {
+                    tenseSCounter = 0;
+                    voiceCounter++;
+                    if (voiceCounter == 2) {
+                        voiceCounter = 0;
+                        moodCounter = 0;
+                    }
+                }
+            }
+        }
+    }
+    if (!changetensekey) {
+        if (personCounter == 6) {
+            personCounter = 0;
+        }
+    }
+}
+
+function checkAnswer() {
+    chooseWord();
+    if (moodCounter == 0) {
+       updateHTML(mood_full[moodCounter], voice_full[voiceCounter], tenseI_full[tenseICounter], person_full[personCounter]); 
+    }
+    else {
+        updateHTML(mood_full[moodCounter], voice_full[voiceCounter], tenseS_full[tenseSCounter], person_full[personCounter]); 
+     }
+    if (userAnswer.value == correctWord) {
+        answers.correct++;
+        document.getElementById('correct').innerHTML = answers.correct;
+    }
+    else if (userAnswer.value != correctWord) {
+        answers.incorrect++;
+        document.getElementById('incorrect').innerHTML = answers.incorrect;
+    }
+    userAnswer.value = '';
+}
+
+chooseWord();
+personCounter--;
+updateHTML(mood_full[moodCounter], voice_full[voiceCounter], tenseI_full[tenseICounter], person_full[personCounter]);
+
+//
