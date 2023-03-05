@@ -6,7 +6,7 @@ let sites = {
 
 let reg = {
     "p": "porto/index.html",
-    "h": "habeo/index.html",
+    "h": "audio/index.html",
     "m": "mitto/index.html",
     "a": "audio/index.html"
 }

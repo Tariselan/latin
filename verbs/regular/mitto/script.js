@@ -65,27 +65,27 @@ const mitto = {
         passive: {
             present: {
                 fs: 'mittor',
-                ss: 'mittoris',
-                ts: 'mittotur',
-                fp: 'mittomur',
-                sp: 'mittomini',
-                tp: 'mittontur' 
+                ss: 'mitteris',
+                ts: 'mittitur',
+                fp: 'mittimur',
+                sp: 'mittimini',
+                tp: 'mittuntur' 
             },
             imperfect: {
-                fs: 'mittobar',
-                ss: 'mittobaris',
-                ts: 'mittobatur',
-                fp: 'mittobamur',
-                sp: 'mittobamini',
-                tp: 'mittobantur'
+                fs: 'mittebar',
+                ss: 'mittebaris',
+                ts: 'mittebatur',
+                fp: 'mittebamur',
+                sp: 'mittebamini',
+                tp: 'mittebantur'
             },
             future: {
-                fs: 'mittobor',
-                ss: 'mittobaris',
-                ts: 'mittobatur',
-                fp: 'mittobamur',
-                sp: 'mittobamini',
-                tp: 'mittobantur'
+                fs: 'mittar',
+                ss: 'mitteris',
+                ts: 'mittetur',
+                fp: 'mittemur',
+                sp: 'mittemini',
+                tp: 'mittentur'
             },
             perfect: {
                 fs: 'missus sum',

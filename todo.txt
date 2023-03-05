@@ -1,6 +1,6 @@
 verb reference for:
     - portor
-    - habeo
+    - audio
     - mitto
 
 

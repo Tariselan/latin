@@ -10,176 +10,176 @@ sp = second plural
 tp = third plural
 */
 
-const habeo = {
+const audio = {
     indicative: {
         active: {
             present: {
-                fs: 'habeo',
-                ss: 'habes',
-                ts: 'habet',
-                fp: 'habemus',
-                sp: 'habetis',
-                tp: 'habent' 
+                fs: 'audio',
+                ss: 'audis',
+                ts: 'audit',
+                fp: 'audimus',
+                sp: 'auditis',
+                tp: 'audiunt' 
             },
             imperfect: {
-                fs: 'habebam',
-                ss: 'habebas',
-                ts: 'habebat',
-                fp: 'habebamus',
-                sp: 'habebatis',
-                tp: 'habebant'
+                fs: 'audiebam',
+                ss: 'audiebas',
+                ts: 'audiebat',
+                fp: 'audiebamus',
+                sp: 'audiebatis',
+                tp: 'audiebant'
             },
             future: {
-                fs: 'habebo',
-                ss: 'habebis',
-                ts: 'habebit',
-                fp: 'habebimus',
-                sp: 'habebitis',
-                tp: 'habebunt'
+                fs: 'audiam',
+                ss: 'audies',
+                ts: 'audiet',
+                fp: 'audiemus',
+                sp: 'audietis',
+                tp: 'audient'
             },
             perfect: {
-                fs: 'habui',
-                ss: 'habuisti',
-                ts: 'habuit',
-                fp: 'habuimus',
-                sp: 'habuistis',
-                tp: 'habuerunt' 
+                fs: 'audivi',
+                ss: 'audivisti',
+                ts: 'audivit',
+                fp: 'audivimus',
+                sp: 'audivistis',
+                tp: 'audiverunt' 
             },
             pluperfect: {
-                fs: 'habueram',
-                ss: 'habueras',
-                ts: 'habuerat',
-                fp: 'habueramus',
-                sp: 'habueratis',
-                tp: 'habuerant' 
+                fs: 'audiveram',
+                ss: 'audiveras',
+                ts: 'audiverat',
+                fp: 'audiveramus',
+                sp: 'audiveratis',
+                tp: 'audiverant' 
             },
             futurePerfect: {
-                fs: 'habuero',
-                ss: 'habueris',
-                ts: 'habuerit',
-                fp: 'habuerimus',
-                sp: 'habueritis',
-                tp: 'habuerint' 
+                fs: 'audivero',
+                ss: 'audiveris',
+                ts: 'audiverit',
+                fp: 'audiverimus',
+                sp: 'audiveritis',
+                tp: 'audiverint' 
             }
         },
         passive: {
             present: {
-                fs: 'habeor',
-                ss: 'haberis',
-                ts: 'habetur',
-                fp: 'habemur',
-                sp: 'habemini',
-                tp: 'habentur' 
+                fs: 'audior',
+                ss: 'audiris',
+                ts: 'auditur',
+                fp: 'audimur',
+                sp: 'audimini',
+                tp: 'audiuntur' 
             },
             imperfect: {
-                fs: 'habebar',
-                ss: 'habebaris',
-                ts: 'habebatur',
-                fp: 'habebamur',
-                sp: 'habebamini',
-                tp: 'habebantur'
+                fs: 'audiebar',
+                ss: 'audiebaris',
+                ts: 'audiebatur',
+                fp: 'audiebamur',
+                sp: 'audiebamini',
+                tp: 'audiebantur'
             },
             future: {
-                fs: 'habebor',
-                ss: 'habebaris',
-                ts: 'habebatur',
-                fp: 'habebamur',
-                sp: 'habebamini',
-                tp: 'habebantur'
+                fs: 'audiar',
+                ss: 'audieris',
+                ts: 'audietur',
+                fp: 'audiemur',
+                sp: 'audiemini',
+                tp: 'audientur'
             },
             perfect: {
-                fs: 'habitus sum',
-                ss: 'habitus es',
-                ts: 'habitus est',
-                fp: 'habitus sumus',
-                sp: 'habitus estis',
-                tp: 'habitus sunt' 
+                fs: 'auditus sum',
+                ss: 'auditus es',
+                ts: 'auditus est',
+                fp: 'auditus sumus',
+                sp: 'auditus estis',
+                tp: 'auditus sunt' 
             },
             pluperfect: {
-                fs: 'habitus eram',
-                ss: 'habitus eras',
-                ts: 'habitus erat',
-                fp: 'habitus eramus',
-                sp: 'habitus eratis',
-                tp: 'habitus erunt' 
+                fs: 'auditus eram',
+                ss: 'auditus eras',
+                ts: 'auditus erat',
+                fp: 'auditus eramus',
+                sp: 'auditus eratis',
+                tp: 'auditus erunt' 
             },
             futurePerfect: {
-                fs: 'habitus ero',
-                ss: 'habitus eris',
-                ts: 'habitus erit',
-                fp: 'habitus erimus',
-                sp: 'habitus eritis',
-                tp: 'habitus erunt' 
+                fs: 'auditus ero',
+                ss: 'auditus eris',
+                ts: 'auditus erit',
+                fp: 'auditus erimus',
+                sp: 'auditus eritis',
+                tp: 'auditus erunt' 
             }
         }
     },
     subjunctive: {
         active: {
             present: {
-                fs: 'habeam',
-                ss: 'habeas',
-                ts: 'habeat',
-                fp: 'habeamus',
-                sp: 'habeatis',
-                tp: 'habeant' 
+                fs: 'audiam',
+                ss: 'audias',
+                ts: 'audiat',
+                fp: 'audiamus',
+                sp: 'audiatis',
+                tp: 'audiant' 
             },
             imperfect: {
-                fs: 'haberem',
-                ss: 'haberes',
-                ts: 'haberet',
-                fp: 'haberemus',
-                sp: 'haberetis',
-                tp: 'haberent'
+                fs: 'audirem',
+                ss: 'audires',
+                ts: 'audiret',
+                fp: 'audiremus',
+                sp: 'audiretis',
+                tp: 'audirent'
             },
             perfect: {
-                fs: 'habuerim',
-                ss: 'habueris',
-                ts: 'habuerit',
-                fp: 'habuerimus',
-                sp: 'habueritis',
-                tp: 'habuerint'
+                fs: 'audiverim',
+                ss: 'audiveris',
+                ts: 'audiverit',
+                fp: 'audiverimus',
+                sp: 'audiveritis',
+                tp: 'audiverint'
             },
             pluperfect: {
-                fs: 'habessim',
-                ss: 'habessis',
-                ts: 'habessit',
-                fp: 'habessimus',
-                sp: 'habessitis',
-                tp: 'habessint' 
+                fs: 'audivissem',
+                ss: 'audivisses',
+                ts: 'audivisset',
+                fp: 'audivissemus',
+                sp: 'audivissetis',
+                tp: 'audivissent' 
             }
         },
         passive: {
             present: {
-                fs: 'habear',
-                ss: 'habearis',
-                ts: 'habeatur',
-                fp: 'habeamur',
-                sp: 'habeamini',
-                tp: 'habeantur' 
+                fs: 'audiar',
+                ss: 'audiaris',
+                ts: 'audiatur',
+                fp: 'audiamur',
+                sp: 'audiamini',
+                tp: 'audiantur' 
             },
             imperfect: {
-                fs: 'haberer',
-                ss: 'habereris',
-                ts: 'haberetur',
-                fp: 'haberemur',
-                sp: 'haberemini',
-                tp: 'haberentur'
+                fs: 'audirer',
+                ss: 'audireris',
+                ts: 'audiretur',
+                fp: 'audiremur',
+                sp: 'audiremini',
+                tp: 'audirentur'
             },
             perfect: {
-                fs: 'habitus sim',
-                ss: 'habitus sis',
-                ts: 'habitus sit',
-                fp: 'habitus simus',
-                sp: 'habitus sitis',
-                tp: 'habitus sint' 
+                fs: 'auditus sim',
+                ss: 'auditus sis',
+                ts: 'auditus sit',
+                fp: 'auditus simus',
+                sp: 'auditus sitis',
+                tp: 'auditus sint' 
             },
             pluperfect: {
-                fs: 'habitus essem',
-                ss: 'habitus esses',
-                ts: 'habitus esset',
-                fp: 'habitus essemus',
-                sp: 'habitus essetis',
-                tp: 'habitus essent' 
+                fs: 'auditus essem',
+                ss: 'auditus esses',
+                ts: 'auditus esset',
+                fp: 'auditus essemus',
+                sp: 'auditus essetis',
+                tp: 'auditus essent' 
             }
         }
     }
@@ -243,7 +243,7 @@ function updateHTML(a, b, c, d) {
 }
 
 function chooseWord() {
-    correctWord = habeo[mood[moodCounter]][voice[voiceCounter]][tenseI[tenseICounter]][person[personCounter]];
+    correctWord = audio[mood[moodCounter]][voice[voiceCounter]][tenseI[tenseICounter]][person[personCounter]];
     personCounter++;
     if (changetensekey) {
         if (personCounter == 6) {
