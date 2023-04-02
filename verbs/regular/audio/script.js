@@ -243,7 +243,12 @@ function updateHTML(a, b, c, d) {
 }
 
 function chooseWord() {
-    correctWord = audio[mood[moodCounter]][voice[voiceCounter]][tenseI[tenseICounter]][person[personCounter]];
+    if (!moodCounter) {
+        correctWord = audio[mood[moodCounter]][voice[voiceCounter]][tenseI[tenseICounter]][person[personCounter]];
+    }
+    else {
+        correctWord = audio[mood[moodCounter]][voice[voiceCounter]][tenseS[tenseSCounter]][person[personCounter]];
+    }
     personCounter++;
     if (changetensekey) {
         if (personCounter == 6) {
