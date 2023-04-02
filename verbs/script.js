@@ -11,6 +11,12 @@ let reg = {
     "a": "audio/index.html"
 }
 
+let irreg = {
+    "s": "sum/index.html",
+    "p": "possum/index.html",
+    "e": "eo/index.html"
+}
+
 //
 
 function goback() {
