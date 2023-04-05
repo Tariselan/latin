@@ -42,7 +42,7 @@ const porto = {
                 ss: 'portavisti',
                 ts: 'portavit',
                 fp: 'portavimus',
-                sp: 'portavistis',
+                sp: 'portavitis',
                 tp: 'portaverunt' 
             },
             pluperfect: {
