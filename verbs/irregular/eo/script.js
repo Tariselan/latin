@@ -14,28 +14,28 @@ const sum = {
     indicative: {
         active: {
             present: {
-                fs: 'sum',
-                ss: 'es',
-                ts: 'est',
-                fp: 'sumus',
-                sp: 'estis',
-                tp: 'sunt' 
+                fs: 'eo',
+                ss: 'is',
+                ts: 'it',
+                fp: 'imus',
+                sp: 'itis',
+                tp: 'eunt' 
             },
             imperfect: {
-                fs: 'eram',
-                ss: 'eras',
-                ts: 'erat',
-                fp: 'eramus',
-                sp: 'eratis',
-                tp: 'erant'
+                fs: 'ibam',
+                ss: 'ibas',
+                ts: 'ibat',
+                fp: 'ibamus',
+                sp: 'ibatis',
+                tp: 'ibant'
             },
             future: {
-                fs: 'ero',
-                ss: 'eris',
-                ts: 'erit',
-                fp: 'erimus',
-                sp: 'eritis',
-                tp: 'erunt'
+                fs: 'ibo',
+                ss: 'ibis',
+                ts: 'ibit',
+                fp: 'ibimus',
+                sp: 'ibitis',
+                tp: 'ibunt'
             },
             perfect: {
                 fs: 'fui',
